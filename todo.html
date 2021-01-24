@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>SW_Calendar</title>
+        <link rel="stylesheet" href="css/common.css"/>
+    </head>
+    <body>
+        <div id="wrap">
+            <div class="js-clock">
+                <h1></h1>
+            </div>
+            <div class="js-name">
+                <div class="js-input-name">
+                    <input type="text" id="t_name" placeholder="input your name!"/> <button id="bt_name" >입력</button>
+                </div>
+                <div class="js-greeting">
+
+                </div>
+            </div>
+            <div class="js-wheather">
+
+            </div>
+            <div class="js-todo">
+                <h1>Tasks</h1>
+                <form class="js-toDoForm">
+                  <input type="text" placeholder="Add Task" />
+                </form>
+                <div class="js-todoData">
+                    <div class="js-todoItem js-rightDum">
+                        <h2>Pending</h2>
+                        <ul class="js-toDoList"></ul>
+                    </div>
+                    <div class="js-todoItem">
+                        <h2>Finished</h2>
+                        <ul class="js-FinishList"></ul>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <script type="text/javascript" src="clock.js"></script>
+        <script type="text/javascript" src="image.js"></script>
+        <script type="text/javascript" src="greeting.js"></script>
+        <script type="text/javascript" src="todo.js"></script>
+        <script type="text/javascript" src="weather.js"></script>
+    </body>
+</html>
